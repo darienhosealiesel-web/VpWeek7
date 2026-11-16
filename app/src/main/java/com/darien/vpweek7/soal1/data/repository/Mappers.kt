@@ -1,12 +1,12 @@
 package com.darien.vpweek7.soal1.data.repository
 
 
-import com.darien.vpweek7.soal1.data.dto.CardDto
+import com.darien.vpweek7.soal1.data.dto.Carddto
 import com.darien.vpweek7.soal1.data.dto.CardListResponseDto
 import com.darien.vpweek7.soal1.model.Card
 import com.darien.vpweek7.soal1.model.CardPage
 
-fun CardDto.toDomain() = Card(
+fun Carddto.toDomain() = Card(
     id = id,
     tcgPlayerId = tcgPlayerId,
     name = name,

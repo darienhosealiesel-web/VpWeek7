@@ -8,13 +8,13 @@ plugins {
 }
 
 android {
-    namespace = "com.darien.VpWeek7"
+    namespace = "com.darien.vpweek7"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.darien.VpWeek7"
+        applicationId = "com.darien.vpweek7"
         minSdk = 24
         targetSdk = 37
         versionCode = 1

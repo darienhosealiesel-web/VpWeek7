@@ -4,7 +4,7 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class CardListResponseDto(
-    val data: List<CardDto> = emptyList(),
+    val data: List<Carddto> = emptyList(),
     val metadata: CardMetadataDto? = null,
 )
 
@@ -15,7 +15,7 @@ data class CardMetadataDto(
 )
 
 @Serializable
-data class CardDto(
+data class Carddto(
     val id: String,
     val tcgPlayerId: String? = null,
     val name: String,
